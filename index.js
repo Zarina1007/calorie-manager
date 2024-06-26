@@ -44,6 +44,10 @@ const options = {
 // Initialize swagger-jsdoc
 const swaggerSpec = swaggerJsDoc(options);
 
+app.get('/', (req, res) => {
+    res.send('Calorie Server is running!');
+});
+
 // Setup the route to serve the documentation
 app.use('/api-docs', swaggerUI.serve, swaggerUI.setup(swaggerSpec));
 
