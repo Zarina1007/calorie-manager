@@ -1,0 +1,26 @@
+{
+  "name": "calorie-manager",
+  "version": "1.0.0",
+  "description": "calorie restful api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "seed": "node seed.js"
+  },
+  "keywords": [
+    "calorie"
+  ],
+  "author": "Super",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "luxon": "^3.4.4",
+    "mongoose": "^8.4.3",
+    "mongoose-sequence": "^6.0.1",
+    "nodemon": "^3.1.4",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
