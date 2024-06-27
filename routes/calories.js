@@ -18,19 +18,19 @@ const caloriesController = require('../controllers/caloriesController');
  *               user_id:
  *                 type: integer
  *                 description: The ID of the user.
- *                 example: 1
+ *                 example: 123123
  *               year:
  *                 type: integer
  *                 description: The year of the calorie entry.
- *                 example: 2023
+ *                 example: 2024
  *               month:
  *                 type: integer
  *                 description: The month of the calorie entry (1-12).
- *                 example: 10
+ *                 example: 6
  *               day:
  *                 type: integer
  *                 description: The day of the calorie entry.
- *                 example: 5
+ *                 example: 27
  *               description:
  *                 type: string
  *                 description: Description of the calorie intake.
@@ -54,31 +54,31 @@ const caloriesController = require('../controllers/caloriesController');
  *                 user_id:
  *                   type: integer
  *                   description: The ID of the user.
- *                   example: 1
+ *                   example: 123123
  *                 year:
  *                   type: integer
  *                   description: The year of the calorie entry.
- *                   example: 2023
+ *                   example: 2024
  *                 month:
  *                   type: integer
  *                   description: The month of the calorie entry (1-12).
- *                   example: 10
+ *                   example: 6
  *                 day:
  *                   type: integer
  *                   description: The day of the calorie entry.
- *                   example: 5
+ *                   example: 27
  *                 description:
  *                   type: string
  *                   description: Description of the calorie intake.
- *                   example: "Lunch at restaurant"
+ *                   example: "Dinner at restaurant"
  *                 category:
  *                   type: string
  *                   description: Category of the calorie intake.
- *                   example: "Meal"
+ *                   example: "dinner"
  *                 amount:
  *                   type: number
  *                   description: Number of calories consumed.
- *                   example: 500
+ *                   example: 1000
  *       500:
  *         description: Internal Server Error.
  *         content:
