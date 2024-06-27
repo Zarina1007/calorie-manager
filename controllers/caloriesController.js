@@ -1,4 +1,5 @@
 const Calorie = require('../models/Calorie');
+const User = require('../models/User');
 
 const addCalorie = async (req, res) => {
     const { user_id, year, month, day, description, category, amount } = req.body;
